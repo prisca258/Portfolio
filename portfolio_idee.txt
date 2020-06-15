@@ -1,0 +1,8 @@
+idée portfolio :
+- image (fixe de base, mouvante si possible), geek ou artistique
+- insertion CV (et export)
+- insertion de projet
+
+hébergement :
+langage : JS, CSS, PHP
+message :
