@@ -1,3 +1,10 @@
-h1 {
-	color: blue;
-} 
+h1 {color:#B0550D;}
+h2 {color:#B0550D;}
+h3 {color:#B0550D;}
+a {color:#CD5E06;}
+body {
+color:#CD5E06;
+background-color:#FEECC7;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
