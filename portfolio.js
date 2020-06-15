@@ -1,5 +1,5 @@
 function myFunction() {
-  alert("Bienvenue !");
+  alert("Ceci est une ébauche de portfolio.");
 }
 
 myFunction();
