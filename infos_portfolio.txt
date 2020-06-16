@@ -1,0 +1,26 @@
+# Info dans un portfolio
+
+Qu'est-ce qu'un portfolio :
+- Un portfolio est un dossier personnel dans lequel les acquis de formation et les
+acquis de l'expérience d'une personne sont définis et démontrés en vue d'une
+reconnaissance par un établissement d'enseignement ou un employeur.
+source : Wikipédia
+
+Que mettre dedans :
+- Info personelle
+    - nom, prénom
+    - photo
+    - contacts (numéro, mail, lien github)
+    - description 'qui je suis', 'ce que je cherche'
+    - CV
+    - centres d'intérêt
+    - recommandation
+    - formulaire de contact
+- Projets
+    - ce que j'ai fait (si en groupe)
+    - temps passés dessus
+    - école ou perso
+    - langage
+    - résultat (lien / capture d'écran / code / instruction lancement)
+    - apprentissage et difficultés
+    - objectifs pédagogiques
