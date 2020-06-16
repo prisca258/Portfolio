@@ -1,7 +1,10 @@
 # Portfolio
 Création d'un portfolio - En cours
 
-3 pages de bases : accueil; à propos; contact
+3 pages de bases : accueil; à propos; projet;
 - accueil : images renvoyant sur le projet
 - à propos : blabla
-- contact : mail, linkedin, github
+- projet : images renvoyant sur le projet
+
+header : liens vers les pages
+contact : mail, linkedin, github

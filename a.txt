@@ -7,13 +7,15 @@
     <title> Portfolio </title>
 
     <link href="header.css" rel="stylesheet">
-    <link href="header.html" rel="stylesheet">
+    <link href="portfolio.css" rel="stylesheet">
   </head>
   <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin:0;
 }
+
+/* HEADER ET BARRE DE NAVIGATION */
 
 /* Style du header */
 .header {
@@ -55,13 +57,7 @@ body {
         <a href="projets.html">Projets</a>
         <a href="Apropos.html">À propos</a>
       </nav>
-    </div>:
-  </div>
-  <div class="presentation">
-    <h1 align="center">Gwénaëlle DUCHEMIN</h1>
-    <blockquote> Etudiante en développement informatique, je cherche une alternance
-    de début octobre 2020 à fin juin 2021. </blockquote>
-
+    </div>
   </div>
 </body>
 </html>
