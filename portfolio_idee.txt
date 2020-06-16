@@ -1,7 +1,0 @@
-idée portfolio :
-- inserer projet
-- image pour envoyer sur le projet 
-- insertion CV 
-
-hébergement :
-langage : JS, CSS, PHP, HTML
