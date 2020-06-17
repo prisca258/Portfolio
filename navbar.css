@@ -22,3 +22,47 @@
   background-color:#ddd;
   color:black;
 }
+
+/* Insertion icone */
+@media (max-width: 512px)
+#navbar ul li a {
+  line-height: 60px;
+  padding: 0;
+}
+
+#navbar ul li a {
+  display:block;
+  font-size:15px;
+  color:#FFA400;
+}
+
+a {
+  background-color:transparent;
+  text-decoration:none;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #ddd;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+li a {
+  display:block;
+  color:black;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#ddd;
+}
