@@ -28,21 +28,22 @@
 .navbar i{
   float:right;
   display:block;
-  padding;14px 30px;
+  padding-right:14px;
 }
 .twitter {
-  width:14px;
-  height:14px;
+  width:30px;
+  height:30px;
 }
 .linkedin {
-  width:14px;
-  height:14px;
+  width:30px;
+  height:30px;
+
 }
 .github {
-  width:14px;
-  height:14px;
+  width:30px;
+  height:30px;
 }
 .mail {
-  width:14px;
-  height:14px;
+  width:30px;
+  height:30px;
 }
