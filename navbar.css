@@ -8,7 +8,7 @@
 .navbar a {
   float:left;
   display:block;
-  color:black;
+  color:#FFA400;
   text-align:center;
   padding:14px 30px;
   text-decoration:none;
@@ -25,25 +25,29 @@
 
 /* Insertion icone */
 
-.navbar i{
+.navbar i {
   float:right;
-  display:block;
   padding-right:14px;
+  padding:14px;
 }
 .twitter {
+  display:inline;
   width:30px;
   height:30px;
 }
 .linkedin {
+  display:inline;
   width:30px;
   height:30px;
 
 }
 .github {
+  display:inline;
   width:30px;
   height:30px;
 }
 .mail {
+  display:inline;
   width:30px;
   height:30px;
 }
