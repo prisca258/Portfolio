@@ -24,45 +24,25 @@
 }
 
 /* Insertion icone */
-@media (max-width: 512px)
-#navbar ul li a {
-  line-height: 60px;
-  padding: 0;
-}
 
-#navbar ul li a {
+.navbar i{
+  float:right;
   display:block;
-  font-size:15px;
-  color:#FFA400;
+  padding;14px 30px;
 }
-
-a {
-  background-color:transparent;
-  text-decoration:none;
+.twitter {
+  width:14px;
+  height:14px;
 }
-
-ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  background-color: #ddd;
+.linkedin {
+  width:14px;
+  height:14px;
 }
-
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
+.github {
+  width:14px;
+  height:14px;
 }
-
-li a {
-  display:block;
-  color:black;
-  text-align:center;
-  padding:14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color:#ddd;
+.mail {
+  width:14px;
+  height:14px;
 }
