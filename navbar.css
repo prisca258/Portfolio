@@ -25,28 +25,56 @@
 
 /* Insertion icone */
 
+
+
+
+
+
+
 .navbar i {
   float:right;
-  padding-right:14px;
-  padding:14px;
+  display:block;
+  color:#FFA400;
+  text-align:center;
+  text-decoration:none;
+  padding:30px 30px;
+  justify-content:center;
+  align-items:center;
 }
-.twitter {
-  display:inline;
-  width:30px;
+.navbar i.center {
+  float:center;
+}
+.navbar i.hover {
+  background-color:#ddd;
+  color:black;
+}
+li {
   height:30px;
+  width:30px;
+  line-height:30px;
+  margin:14px
 }
-.linkedin {
+li i{
+  transition:all 0.3s linear;
+}
+li:hover i{
+  transform:sale(1.4);
+}
+.fa-twitter {
+  color:#FAA400;
+}
+.fa-linkedin {
   display:inline;
   width:30px;
   height:30px;
 
 }
-.github {
+.fa-github {
   display:inline;
   width:30px;
   height:30px;
 }
-.mail {
+.fa-mail {
   display:inline;
   width:30px;
   height:30px;
