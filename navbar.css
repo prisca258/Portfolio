@@ -12,6 +12,7 @@
   text-align:center;
   padding:14px 30px;
   text-decoration:none;
+  align-items:center;
 }
 /* Centrer liens */
 .navbar a.center {
@@ -21,61 +22,4 @@
 .navbar a:hover {
   background-color:#ddd;
   color:black;
-}
-
-/* Insertion icone */
-
-
-
-
-
-
-
-.navbar i {
-  float:right;
-  display:block;
-  color:#FFA400;
-  text-align:center;
-  text-decoration:none;
-  padding:30px 30px;
-  justify-content:center;
-  align-items:center;
-}
-.navbar i.center {
-  float:center;
-}
-.navbar i.hover {
-  background-color:#ddd;
-  color:black;
-}
-li {
-  height:30px;
-  width:30px;
-  line-height:30px;
-  margin:14px
-}
-li i{
-  transition:all 0.3s linear;
-}
-li:hover i{
-  transform:sale(1.4);
-}
-.fa-twitter {
-  color:#FAA400;
-}
-.fa-linkedin {
-  display:inline;
-  width:30px;
-  height:30px;
-
-}
-.fa-github {
-  display:inline;
-  width:30px;
-  height:30px;
-}
-.fa-mail {
-  display:inline;
-  width:30px;
-  height:30px;
 }
