@@ -11,9 +11,34 @@
     <link href="navbar.css" rel="stylesheet">
   </head>
   <style>
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin:0;
+}
+/* CONTENU PAGE */
+
+/* Contenu colonne */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+  flex: 50%;
+  padding: 20px;
+}
+.right {
+  flex: 50%;
+  padding: 20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 </style>
 <body>
@@ -26,8 +51,26 @@ body {
       </nav>
     </div>
   </div>
-  <div>
-    <div class="projet 1">
+  <div class="row">
+    <div class="left">
+      <a href="https://github.com/adatechschool/Ada_eyes">
+        <img alt="projet ada eyes" src="projects/oeil.svg">
+      </a>
+      <br>
+      <a href="https://github.com/adatechschool/promo_bulbizarre/tree/master/sequence_11/TicTacToe_Mo_Gw_Ni">
+        <img alt="projet morpion" src="projects/morpion.svg">
+      </a>
+    </div>
+    <div class="right">
+      <a href="https://github.com/adatechschool/GildedRose-Gwen-Adriel">
+        <img alt="projet gilded rose" src="projects/rose.svg">
+      </a>
+      <br>
+      <br>
+      <br>
+      <a href="https://github.com/Stealian/Portfolio">
+        <img alt="projet portfolio" src="projects/cv.svg">
+      </a>
     </div>
   </div>
 </body>
