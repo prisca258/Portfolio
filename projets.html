@@ -18,6 +18,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin:0;
 }
+img {
+  margin:10px;
+}
 /* CONTENU PAGE */
 
 /* Contenu colonne */
@@ -37,29 +40,39 @@ img {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:35%;
+  width:40%;
   height:auto;
+}
+.img *{
+  box-sizing:border-box;
 }
 .img_wrap {
   position:relative;
-  display:block;
-  height:35%;
-  width:auto;
+  display:inline-block;
+  overflow:hidden;
+  max-width:100%;
+  height:auto;
 }
 .img_description {
-  position:relative;
-  margin-left:auto;
-  margin-right:auto;
-  display:block;
+  position:absolute;
+  top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+  padding:15px;
+  display:inline-block;
   background:black;
   color:#fff;
   visibility:hidden;
   opacity:0;
+  text-align:center;
   transition: opacity .2s, visibility .2s;
 }
 .img_wrap:hover .img_description {
-  visibility: visible;
-  opacity: 1;
+  visibility:visible;
+  opacity:1;
 }
 </style>
 <body>
@@ -77,31 +90,29 @@ img {
       <br>
       <a class="img_wrap" href="https://github.com/adatechschool/Ada_eyes">
         <img class="img_img" alt="projet ada eyes" src="projects/oeil.svg">
-        <p class="img_description" align="center">
-        Projet de groupe en processing permettant de faire réagir deux yeux</p>
+        <p class="img_description">
+        Projet scolaire en groupe dans le langage processing permettant de faire réagir deux yeux</p>
       </a>
-      <br>
       <br>
       <a class="img_wrap" href="https://github.com/adatechschool/promo_bulbizarre/tree/master/sequence_11/TicTacToe_Mo_Gw_Ni">
         <img class="img_img" alt="projet morpion" src="projects/morpion.svg">
-        <p class="img_description" align="center">
-        Projet de groupe en processing permettant de jouer à un jeu de
-        morpion</p>
+        <p class="img_description">
+        Projet scolaire de groupe permettant de jouer à un jeu de
+        morpion fait en processing</p>
       </a>
     </div>
     <div class="main">
       <br>
       <a class="img_wrap" href="https://github.com/adatechschool/GildedRose-Gwen-Adriel">
         <img class="img_img" alt="projet gilded rose" src="projects/rose.svg">
-        <p class="img_description" align="center">
-        Projet de groupe GoldedRose, qui est un kata, en rust</p>
+        <p class="img_description">
+        Projet scolaire de groupe GoldedRose, qui est un kata, en rust</p>
       </a>
-      <br>
       <br>
       <a class="img_wrap" href="https://github.com/Stealian/Portfolio">
         <img class="img_img" alt="projet portfolio" src="projects/cv.svg">
-        <p class="img_description" align="center">
-        Projet de portfolio en HTML et CSS, vous êtes actuellement
+        <p class="img_description">
+        Projet scolaire solo d'un portfolio en HTML et CSS, vous êtes actuellement
         dessus</p>
       </a>
     </div>
